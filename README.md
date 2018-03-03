@@ -1,2 +1,2 @@
 # danmaku-u3d
-just a tutorial.
+Just a tutorial.
