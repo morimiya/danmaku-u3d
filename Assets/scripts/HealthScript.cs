@@ -9,6 +9,9 @@ public class HealthScript : MonoBehaviour {
 	public void Damage(int damageCount) {
 		hp -= damageCount;
 		if (hp <= 0) {
+			// 'Splosion!
+			SpecialEffectsHelper.Instance.Explosion(transform.position);
+
 			Destroy(gameObject);
 		}
 	}
